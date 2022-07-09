@@ -91,3 +91,251 @@ h1 {
     background-color: darkblue;
     color: white;
 }
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: rgb(5, 46, 46);
+        color: white;
+
+    }
+
+    .container {
+        padding: 20px;
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+        border: 10px solid rgb(30, 255, 0);
+    }
+
+    .container1 {
+        width: 70%;
+        border: 10px solid gold;
+        display: flex;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .article {
+        width: 100%;
+        height: auto;
+        border: 10px solid rgb(119, 119, 155);
+    }
+
+    .header-inside {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        border: 5px solid black;
+        background-color: rgb(184, 180, 135);
+    }
+
+    .article section {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
+    .footer-inside {
+        width: 100%;
+        height: auto;
+        background-color: coral;
+        text-align: center;
+        font-size: 16;
+    }
+
+    .aside {
+        width: 100%;
+        height: auto;
+        border: 5px solid indigo;
+        background-color: rgb(174, 153, 194);
+
+    }
+
+    .aside1 {
+        background-color: bisque;
+        padding: 10px;
+        border: 1px solid rgb(116, 0, 233);
+        margin-bottom: 5px;
+        height: auto;
+    }
+
+    .aside2 {
+        background-color: cadetblue;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer {
+        background-color: darkblue;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: darkslategray;
+        color: white;
+    }
+
+    .container {
+        padding: 10px;
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+        border: 5px solid red;
+    }
+
+    .container1 {
+        width: 70%;
+        border: 1px solid gold;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .article {
+        width: 100%;
+        height: auto;
+        border: 5px solid rgb(119, 119, 155);
+    }
+
+    .header-inside {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: rgb(184, 180, 135);
+    }
+
+    .article section {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer-inside {
+        width: 100%;
+        height: auto;
+        background-color: coral;
+        text-align: center;
+        font-size: 16;
+    }
+
+    .aside {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border: 5px solid indigo;
+        background-color: rgb(174, 153, 194);
+
+    }
+
+    .aside1 {
+        background-color: bisque;
+        border: 1px solid rgb(116, 0, 233);
+        margin-bottom: 5px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .aside2 {
+        background-color: cadetblue;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer {
+        background-color: darkblue;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+        border: 5px solid red;
+    }
+
+    .container1 {
+        width: 70%;
+        border: 1px solid gold;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .article {
+        width: 100%;
+        height: auto;
+        border: 5px solid rgb(119, 119, 155);
+    }
+
+    .header-inside {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: rgb(184, 180, 135);
+    }
+
+    .article section {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .footer-inside {
+        width: 100%;
+        height: auto;
+        background-color: coral;
+        text-align: center;
+        font-size: 16;
+    }
+
+    .aside {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        border: 5px solid indigo;
+        background-color: rgb(174, 153, 194);
+
+    }
+
+    .aside1 {
+        background-color: bisque;
+        border: 1px solid rgb(116, 0, 233);
+        margin-bottom: 5px;
+        height: auto;
+    }
+
+    .aside2 {
+        background-color: cadetblue;
+        height: auto;
+    }
+
+    .footer {
+        background-color: darkblue;
+        color: white;
+    }
+}

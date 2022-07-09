@@ -265,14 +265,14 @@ h1 {
 @media screen and (max-width: 600px) {
     .container {
         padding: 10px;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
         height: auto;
         border: 5px solid red;
     }
 
     .container1 {
-        width: 70%;
+        width: 100%;
         border: 1px solid gold;
         display: block;
         margin: auto;
